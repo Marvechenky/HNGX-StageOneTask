@@ -24,7 +24,7 @@ app.get("/api", (req, res) => {
       current_day,
       utc_time,
       track: "backend",
-      "github_file_url":"https://github.com/Marvechenky/HNGx-stageOneTask/main/",
+      "github_file_url":"https://github.com/Marvechenky/HNGx-StageOneTask/blob/main/server.js",
       "github_repo_url": "https://github.com/Marvechenky/HNGx-stageOneTask",
       "status_code": 200
     };
