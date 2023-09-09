@@ -1,0 +1,15 @@
+{
+  "name": "stageonetask",
+  "version": "1.0.0",
+  "description": "API endpoint with request query parameters that returns a JSON object response",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marvis Alimhiantare",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
