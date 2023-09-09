@@ -7,10 +7,10 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 app.get("/api", (req, res) => {
-	const slackName = req.query.slackName;
+	const slack_name = req.query.slack_name;
 	const track = req.query.track;
 
-	if (!slackName || !track) {
+	if (!slack_name || !track) {
 		return res.status(400).json({
 			error: "slack name and track is required",
 		});
@@ -20,7 +20,7 @@ app.get("/api", (req, res) => {
     const utc_time = new Date().toUTCString();
 
     const response = {
-      slack_name: "Marvis Uwaoye Alimhiantare",
+      slack_name: "Marvis_Alimhiantare",
       current_day,
       utc_time,
       track: "backend",
